@@ -26,22 +26,38 @@ body {
 .heading {
   font-size: var(--task-size);
 }
-
+.column {
+  width: 100%;
+}
 .column-heading {
   /* font-size: 20px; */
   color: var(--primary-color);
   margin-bottom: 1rem;
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   gap: 1rem;
   align-items: center;
+  padding-bottom: 1rem;
   border-bottom: 1px solid var(--secondary-color);
 }
 
+.board {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.btns {
+  display: flex;
+  gap: 1rem;
+  align-items: end;
+  justify-content: flex-end;
+}
 .btn {
   cursor: pointer;
 }
 
 .card {
   background-color: var(--task-color);
+  padding: 1rem;
+  border-radius: 5px;
 }
