@@ -43,7 +43,7 @@ body {
 
 .board {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   margin-top: 2rem;
 }
 .btns {
@@ -56,7 +56,7 @@ body {
   cursor: pointer;
 }
 
-.card {
+.task {
   background-color: var(--task-color);
   padding: 1rem;
   border-radius: 5px;

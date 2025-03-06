@@ -12,7 +12,7 @@ function addTask(e) {
   if (!task) return;
 
   const taskElement = document.createElement("div");
-  taskElement.className = "card";
+  taskElement.className = "task";
   taskElement.draggable = true;
   taskElement.innerHTML = `    
         <div class="title">${task}</div>
